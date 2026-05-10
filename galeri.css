@@ -1,0 +1,21 @@
+.gallery {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 1 1 240px;
+  min-height: 140px;
+  border-radius: 12px;
+  padding: 14px;
+  color: #fff;
+  display: flex;
+  align-items: end;
+  font-weight: 600;
+}
+
+.g1 { background: #0ea5e9; }
+.g2 { background: #22c55e; }
+.g3 { background: #f97316; }
+.g4 { background: #a855f7; }
